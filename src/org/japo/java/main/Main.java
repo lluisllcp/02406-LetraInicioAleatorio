@@ -37,21 +37,11 @@ public class Main {
       char letra;
       
       //Generar dato
-      //la suma de char puede exceder un char
-      //El cast debe englobar todo
-      
-      letra = (char) (RND.nextInt(LETRA_FIN - LETRA_INI +1) + LETRA_INI);
+       letra = (char) (RND.nextInt(LETRA_FIN - LETRA_INI +1) + LETRA_INI);
       
       //Mensaje
       
         System.out.printf("Letra de inicio de examen ..:%c%n", letra);
-        
- 
-    
-    
-    
-    
-    
     
     
     }
